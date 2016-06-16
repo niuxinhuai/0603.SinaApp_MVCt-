@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DD49DD1CF58B3F000A201E /* tabbar_compose_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49D31CF58B3F000A201E /* tabbar_compose_button@2x.png */; };
+		04DD49DE1CF58B3F000A201E /* tabbar_compose_icon_add_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49D41CF58B3F000A201E /* tabbar_compose_icon_add_highlighted@2x.png */; };
+		04DD49DF1CF58B3F000A201E /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49D51CF58B3F000A201E /* tabbar_discover@2x.png */; };
+		04DD49E01CF58B3F000A201E /* tabbar_discover_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49D61CF58B3F000A201E /* tabbar_discover_selected@2x.png */; };
+		04DD49E11CF58B3F000A201E /* tabbar_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49D71CF58B3F000A201E /* tabbar_home@2x.png */; };
+		04DD49E21CF58B3F000A201E /* tabbar_home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49D81CF58B3F000A201E /* tabbar_home_selected@2x.png */; };
+		04DD49E31CF58B3F000A201E /* tabbar_message_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49D91CF58B3F000A201E /* tabbar_message_center@2x.png */; };
+		04DD49E41CF58B3F000A201E /* tabbar_message_center_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49DA1CF58B3F000A201E /* tabbar_message_center_selected@2x.png */; };
+		04DD49E51CF58B3F000A201E /* tabbar_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49DB1CF58B3F000A201E /* tabbar_profile@2x.png */; };
+		04DD49E61CF58B3F000A201E /* tabbar_profile_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD49DC1CF58B3F000A201E /* tabbar_profile_highlighted@2x.png */; };
+		68E31A14D654EA54575E1C23 /* libPods-SinaApp_MVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 231C80385AFF76E600A9F2B8 /* libPods-SinaApp_MVC.a */; };
+		FD334F6C1CF292A000F478D2 /* SinaShowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD334F6B1CF292A000F478D2 /* SinaShowImageView.m */; };
+		FD334F6F1CF2D87700F478D2 /* SinaRetweetedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD334F6E1CF2D87700F478D2 /* SinaRetweetedView.m */; };
+		FD80B7DF1CF43254001D8A66 /* CollectionImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80B7DE1CF43254001D8A66 /* CollectionImageViewController.m */; };
+		FD80B7E21CF434FA001D8A66 /* SinaCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80B7E11CF434FA001D8A66 /* SinaCustomCollectionViewCell.m */; };
+		FD9805DF1CF7DD3D00F9FB5B /* SinaMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9805DE1CF7DD3D00F9FB5B /* SinaMenuViewController.m */; };
+		FD9805E21CF7FB1300F9FB5B /* SendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9805E11CF7FB1300F9FB5B /* SendMessageViewController.m */; };
+		FD9C26D61CFD3AC3000D2242 /* SinaEmoticonPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9C26D51CFD3AC3000D2242 /* SinaEmoticonPackage.m */; };
+		FD9C26D81CFD3AD3000D2242 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD9C26D71CFD3AD3000D2242 /* Emoticons.bundle */; };
+		FD9C26DB1CFD3DA0000D2242 /* SinaEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9C26DA1CFD3DA0000D2242 /* SinaEmoticonManager.m */; };
+		FD9C27281CFE8BED000D2242 /* SinaEmojiLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9C27271CFE8BED000D2242 /* SinaEmojiLayout.m */; };
+		FD9C272B1CFEB6EA000D2242 /* SinaEmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9C272A1CFEB6EA000D2242 /* SinaEmojiCollectionViewCell.m */; };
+		FDA34D661CEC3FE700E3E909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D651CEC3FE700E3E909 /* main.m */; };
+		FDA34D691CEC3FE700E3E909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D681CEC3FE700E3E909 /* AppDelegate.m */; };
+		FDA34D6B1CEC3FE700E3E909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA34D6A1CEC3FE700E3E909 /* Assets.xcassets */; };
+		FDA34D6E1CEC3FE700E3E909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA34D6C1CEC3FE700E3E909 /* LaunchScreen.storyboard */; };
+		FDA34D761CEC404200E3E909 /* SinaRoot.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA34D751CEC404200E3E909 /* SinaRoot.storyboard */; };
+		FDA34D7E1CEC416700E3E909 /* SinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D7D1CEC416700E3E909 /* SinaViewController.m */; };
+		FDA34D811CEC417200E3E909 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D801CEC417200E3E909 /* MessageViewController.m */; };
+		FDA34D841CEC417A00E3E909 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D831CEC417A00E3E909 /* SearchViewController.m */; };
+		FDA34D871CEC418500E3E909 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D861CEC418500E3E909 /* SettingViewController.m */; };
+		FDA34D8C1CEC4D1C00E3E909 /* SinaLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D8B1CEC4D1C00E3E909 /* SinaLoginView.m */; };
+		FDA34D8F1CEC56C600E3E909 /* SinaTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA34D8E1CEC56C600E3E909 /* SinaTool.m */; };
+		FDA45C581CED53650099928C /* SinaCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA45C571CED53650099928C /* SinaCustomTableViewCell.m */; };
+		FDA45C601CED96B50099928C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA45C5F1CED96B50099928C /* UIColor+Hex.m */; };
+		FDA45C631CED99680099928C /* NSString+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA45C621CED99680099928C /* NSString+Addtion.m */; };
+		FDE1D6771D00206800A3AC52 /* SinaPickerPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1D6761D00206800A3AC52 /* SinaPickerPhotoViewController.m */; };
+		FDE1D67A1D00276300A3AC52 /* SinaPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1D6791D00276300A3AC52 /* SinaPhotoModel.m */; };
+		FDE1D67D1D002B7200A3AC52 /* SinaPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1D67C1D002B7200A3AC52 /* SinaPhotoCollectionViewCell.m */; };
+		FDE1D6801D0112E700A3AC52 /* SinaSelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1D67F1D0112E700A3AC52 /* SinaSelectImageView.m */; };
+		FDF512A91CED4C8E007258F2 /* SinaAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF5129C1CED4C8E007258F2 /* SinaAnnotations.m */; };
+		FDF512AA1CED4C8E007258F2 /* SinaHomeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF5129E1CED4C8E007258F2 /* SinaHomeLineModel.m */; };
+		FDF512AB1CED4C8E007258F2 /* SinaPicUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF512A01CED4C8E007258F2 /* SinaPicUrls.m */; };
+		FDF512AC1CED4C8E007258F2 /* SinaRetweetedStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF512A21CED4C8E007258F2 /* SinaRetweetedStatus.m */; };
+		FDF512AD1CED4C8E007258F2 /* SinaStatuses.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF512A41CED4C8E007258F2 /* SinaStatuses.m */; };
+		FDF512AE1CED4C8E007258F2 /* SinaUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF512A61CED4C8E007258F2 /* SinaUser.m */; };
+		FDF512AF1CED4C8E007258F2 /* SinaVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF512A81CED4C8E007258F2 /* SinaVisible.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04DD49D31CF58B3F000A201E /* tabbar_compose_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button@2x.png"; sourceTree = "<group>"; };
+		04DD49D41CF58B3F000A201E /* tabbar_compose_icon_add_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add_highlighted@2x.png"; sourceTree = "<group>"; };
+		04DD49D51CF58B3F000A201E /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		04DD49D61CF58B3F000A201E /* tabbar_discover_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover_selected@2x.png"; sourceTree = "<group>"; };
+		04DD49D71CF58B3F000A201E /* tabbar_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@2x.png"; sourceTree = "<group>"; };
+		04DD49D81CF58B3F000A201E /* tabbar_home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_selected@2x.png"; sourceTree = "<group>"; };
+		04DD49D91CF58B3F000A201E /* tabbar_message_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center@2x.png"; sourceTree = "<group>"; };
+		04DD49DA1CF58B3F000A201E /* tabbar_message_center_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center_selected@2x.png"; sourceTree = "<group>"; };
+		04DD49DB1CF58B3F000A201E /* tabbar_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile@2x.png"; sourceTree = "<group>"; };
+		04DD49DC1CF58B3F000A201E /* tabbar_profile_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile_highlighted@2x.png"; sourceTree = "<group>"; };
+		231C80385AFF76E600A9F2B8 /* libPods-SinaApp_MVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SinaApp_MVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D13A221A0093BD2A73622B /* Pods-SinaApp_MVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaApp_MVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinaApp_MVC/Pods-SinaApp_MVC.debug.xcconfig"; sourceTree = "<group>"; };
+		DC78ED2B6C042985355F10C0 /* Pods-SinaApp_MVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaApp_MVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinaApp_MVC/Pods-SinaApp_MVC.release.xcconfig"; sourceTree = "<group>"; };
+		FD334F6A1CF292A000F478D2 /* SinaShowImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaShowImageView.h; sourceTree = "<group>"; };
+		FD334F6B1CF292A000F478D2 /* SinaShowImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaShowImageView.m; sourceTree = "<group>"; };
+		FD334F6D1CF2D87700F478D2 /* SinaRetweetedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaRetweetedView.h; sourceTree = "<group>"; };
+		FD334F6E1CF2D87700F478D2 /* SinaRetweetedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaRetweetedView.m; sourceTree = "<group>"; };
+		FD80B7DD1CF43254001D8A66 /* CollectionImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionImageViewController.h; sourceTree = "<group>"; };
+		FD80B7DE1CF43254001D8A66 /* CollectionImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionImageViewController.m; sourceTree = "<group>"; };
+		FD80B7E01CF434FA001D8A66 /* SinaCustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		FD80B7E11CF434FA001D8A66 /* SinaCustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		FD9805DD1CF7DD3D00F9FB5B /* SinaMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaMenuViewController.h; sourceTree = "<group>"; };
+		FD9805DE1CF7DD3D00F9FB5B /* SinaMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaMenuViewController.m; sourceTree = "<group>"; };
+		FD9805E01CF7FB1300F9FB5B /* SendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageViewController.h; sourceTree = "<group>"; };
+		FD9805E11CF7FB1300F9FB5B /* SendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageViewController.m; sourceTree = "<group>"; };
+		FD9C26D41CFD3AC3000D2242 /* SinaEmoticonPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaEmoticonPackage.h; sourceTree = "<group>"; };
+		FD9C26D51CFD3AC3000D2242 /* SinaEmoticonPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaEmoticonPackage.m; sourceTree = "<group>"; };
+		FD9C26D71CFD3AD3000D2242 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		FD9C26D91CFD3DA0000D2242 /* SinaEmoticonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaEmoticonManager.h; sourceTree = "<group>"; };
+		FD9C26DA1CFD3DA0000D2242 /* SinaEmoticonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaEmoticonManager.m; sourceTree = "<group>"; };
+		FD9C27261CFE8BED000D2242 /* SinaEmojiLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaEmojiLayout.h; sourceTree = "<group>"; };
+		FD9C27271CFE8BED000D2242 /* SinaEmojiLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaEmojiLayout.m; sourceTree = "<group>"; };
+		FD9C27291CFEB6EA000D2242 /* SinaEmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaEmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		FD9C272A1CFEB6EA000D2242 /* SinaEmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaEmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		FDA34D611CEC3FE700E3E909 /* SinaApp_MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaApp_MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA34D651CEC3FE700E3E909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA34D671CEC3FE700E3E909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA34D681CEC3FE700E3E909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA34D6A1CEC3FE700E3E909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA34D6D1CEC3FE700E3E909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA34D6F1CEC3FE700E3E909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA34D751CEC404200E3E909 /* SinaRoot.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SinaRoot.storyboard; sourceTree = "<group>"; };
+		FDA34D7C1CEC416700E3E909 /* SinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaViewController.h; sourceTree = "<group>"; };
+		FDA34D7D1CEC416700E3E909 /* SinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaViewController.m; sourceTree = "<group>"; };
+		FDA34D7F1CEC417200E3E909 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		FDA34D801CEC417200E3E909 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		FDA34D821CEC417A00E3E909 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		FDA34D831CEC417A00E3E909 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		FDA34D851CEC418500E3E909 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		FDA34D861CEC418500E3E909 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		FDA34D8A1CEC4D1C00E3E909 /* SinaLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaLoginView.h; sourceTree = "<group>"; };
+		FDA34D8B1CEC4D1C00E3E909 /* SinaLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaLoginView.m; sourceTree = "<group>"; };
+		FDA34D8D1CEC56C600E3E909 /* SinaTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaTool.h; sourceTree = "<group>"; };
+		FDA34D8E1CEC56C600E3E909 /* SinaTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaTool.m; sourceTree = "<group>"; };
+		FDA45C561CED53650099928C /* SinaCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaCustomTableViewCell.h; sourceTree = "<group>"; };
+		FDA45C571CED53650099928C /* SinaCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaCustomTableViewCell.m; sourceTree = "<group>"; };
+		FDA45C5E1CED96B50099928C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		FDA45C5F1CED96B50099928C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		FDA45C611CED99680099928C /* NSString+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addtion.h"; sourceTree = "<group>"; };
+		FDA45C621CED99680099928C /* NSString+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addtion.m"; sourceTree = "<group>"; };
+		FDE1D6751D00206800A3AC52 /* SinaPickerPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaPickerPhotoViewController.h; sourceTree = "<group>"; };
+		FDE1D6761D00206800A3AC52 /* SinaPickerPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaPickerPhotoViewController.m; sourceTree = "<group>"; };
+		FDE1D6781D00276300A3AC52 /* SinaPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaPhotoModel.h; sourceTree = "<group>"; };
+		FDE1D6791D00276300A3AC52 /* SinaPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaPhotoModel.m; sourceTree = "<group>"; };
+		FDE1D67B1D002B7200A3AC52 /* SinaPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		FDE1D67C1D002B7200A3AC52 /* SinaPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		FDE1D67E1D0112E700A3AC52 /* SinaSelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaSelectImageView.h; sourceTree = "<group>"; };
+		FDE1D67F1D0112E700A3AC52 /* SinaSelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaSelectImageView.m; sourceTree = "<group>"; };
+		FDF5129A1CED4C8E007258F2 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		FDF5129B1CED4C8E007258F2 /* SinaAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaAnnotations.h; sourceTree = "<group>"; };
+		FDF5129C1CED4C8E007258F2 /* SinaAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaAnnotations.m; sourceTree = "<group>"; };
+		FDF5129D1CED4C8E007258F2 /* SinaHomeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaHomeLineModel.h; sourceTree = "<group>"; };
+		FDF5129E1CED4C8E007258F2 /* SinaHomeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaHomeLineModel.m; sourceTree = "<group>"; };
+		FDF5129F1CED4C8E007258F2 /* SinaPicUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaPicUrls.h; sourceTree = "<group>"; };
+		FDF512A01CED4C8E007258F2 /* SinaPicUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaPicUrls.m; sourceTree = "<group>"; };
+		FDF512A11CED4C8E007258F2 /* SinaRetweetedStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaRetweetedStatus.h; sourceTree = "<group>"; };
+		FDF512A21CED4C8E007258F2 /* SinaRetweetedStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaRetweetedStatus.m; sourceTree = "<group>"; };
+		FDF512A31CED4C8E007258F2 /* SinaStatuses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaStatuses.h; sourceTree = "<group>"; };
+		FDF512A41CED4C8E007258F2 /* SinaStatuses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaStatuses.m; sourceTree = "<group>"; };
+		FDF512A51CED4C8E007258F2 /* SinaUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaUser.h; sourceTree = "<group>"; };
+		FDF512A61CED4C8E007258F2 /* SinaUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaUser.m; sourceTree = "<group>"; };
+		FDF512A71CED4C8E007258F2 /* SinaVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaVisible.h; sourceTree = "<group>"; };
+		FDF512A81CED4C8E007258F2 /* SinaVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaVisible.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA34D5E1CEC3FE700E3E909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E31A14D654EA54575E1C23 /* libPods-SinaApp_MVC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DD49D21CF58B3F000A201E /* sina图片 */ = {
+			isa = PBXGroup;
+			children = (
+				04DD49D31CF58B3F000A201E /* tabbar_compose_button@2x.png */,
+				04DD49D41CF58B3F000A201E /* tabbar_compose_icon_add_highlighted@2x.png */,
+				04DD49D51CF58B3F000A201E /* tabbar_discover@2x.png */,
+				04DD49D61CF58B3F000A201E /* tabbar_discover_selected@2x.png */,
+				04DD49D71CF58B3F000A201E /* tabbar_home@2x.png */,
+				04DD49D81CF58B3F000A201E /* tabbar_home_selected@2x.png */,
+				04DD49D91CF58B3F000A201E /* tabbar_message_center@2x.png */,
+				04DD49DA1CF58B3F000A201E /* tabbar_message_center_selected@2x.png */,
+				04DD49DB1CF58B3F000A201E /* tabbar_profile@2x.png */,
+				04DD49DC1CF58B3F000A201E /* tabbar_profile_highlighted@2x.png */,
+			);
+			path = "sina图片";
+			sourceTree = "<group>";
+		};
+		493F0966432ECA31D802EF00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231C80385AFF76E600A9F2B8 /* libPods-SinaApp_MVC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2EFAB3F3B9B14F26991248A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7D13A221A0093BD2A73622B /* Pods-SinaApp_MVC.debug.xcconfig */,
+				DC78ED2B6C042985355F10C0 /* Pods-SinaApp_MVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDA34D581CEC3FE700E3E909 = {
+			isa = PBXGroup;
+			children = (
+				FDA34D631CEC3FE700E3E909 /* SinaApp_MVC */,
+				FDA34D621CEC3FE700E3E909 /* Products */,
+				B2EFAB3F3B9B14F26991248A /* Pods */,
+				493F0966432ECA31D802EF00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA34D621CEC3FE700E3E909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA34D611CEC3FE700E3E909 /* SinaApp_MVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA34D631CEC3FE700E3E909 /* SinaApp_MVC */ = {
+			isa = PBXGroup;
+			children = (
+				04DD49D21CF58B3F000A201E /* sina图片 */,
+				FDA45C5D1CED969C0099928C /* Utils */,
+				FDA34D671CEC3FE700E3E909 /* AppDelegate.h */,
+				FDA34D681CEC3FE700E3E909 /* AppDelegate.m */,
+				FDA34D771CEC409D00E3E909 /* UI */,
+				FDA34D751CEC404200E3E909 /* SinaRoot.storyboard */,
+				FDA34D6A1CEC3FE700E3E909 /* Assets.xcassets */,
+				FDA34D6C1CEC3FE700E3E909 /* LaunchScreen.storyboard */,
+				FDA34D6F1CEC3FE700E3E909 /* Info.plist */,
+				FDA34D641CEC3FE700E3E909 /* Supporting Files */,
+			);
+			path = SinaApp_MVC;
+			sourceTree = "<group>";
+		};
+		FDA34D641CEC3FE700E3E909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA34D651CEC3FE700E3E909 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA34D771CEC409D00E3E909 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FD9C26D71CFD3AD3000D2242 /* Emoticons.bundle */,
+				FDA34D7B1CEC40EC00E3E909 /* Setting */,
+				FDA34D7A1CEC40E300E3E909 /* Search */,
+				FDA34D791CEC40B800E3E909 /* Message */,
+				FDA34D781CEC40AA00E3E909 /* Sina */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FDA34D781CEC40AA00E3E909 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				FDA34D891CEC4CC100E3E909 /* View */,
+				FDA34D881CEC4CB700E3E909 /* Model */,
+				FDA34D7C1CEC416700E3E909 /* SinaViewController.h */,
+				FDA34D7D1CEC416700E3E909 /* SinaViewController.m */,
+				FD80B7DD1CF43254001D8A66 /* CollectionImageViewController.h */,
+				FD80B7DE1CF43254001D8A66 /* CollectionImageViewController.m */,
+				FD9805DD1CF7DD3D00F9FB5B /* SinaMenuViewController.h */,
+				FD9805DE1CF7DD3D00F9FB5B /* SinaMenuViewController.m */,
+				FD9805E01CF7FB1300F9FB5B /* SendMessageViewController.h */,
+				FD9805E11CF7FB1300F9FB5B /* SendMessageViewController.m */,
+				FDE1D6751D00206800A3AC52 /* SinaPickerPhotoViewController.h */,
+				FDE1D6761D00206800A3AC52 /* SinaPickerPhotoViewController.m */,
+			);
+			name = Sina;
+			sourceTree = "<group>";
+		};
+		FDA34D791CEC40B800E3E909 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FDA34D7F1CEC417200E3E909 /* MessageViewController.h */,
+				FDA34D801CEC417200E3E909 /* MessageViewController.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		FDA34D7A1CEC40E300E3E909 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FDA34D821CEC417A00E3E909 /* SearchViewController.h */,
+				FDA34D831CEC417A00E3E909 /* SearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		FDA34D7B1CEC40EC00E3E909 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				FDA34D851CEC418500E3E909 /* SettingViewController.h */,
+				FDA34D861CEC418500E3E909 /* SettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		FDA34D881CEC4CB700E3E909 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5129A1CED4C8E007258F2 /* DataModels.h */,
+				FDF5129B1CED4C8E007258F2 /* SinaAnnotations.h */,
+				FDF5129C1CED4C8E007258F2 /* SinaAnnotations.m */,
+				FDF5129D1CED4C8E007258F2 /* SinaHomeLineModel.h */,
+				FDF5129E1CED4C8E007258F2 /* SinaHomeLineModel.m */,
+				FDF5129F1CED4C8E007258F2 /* SinaPicUrls.h */,
+				FDF512A01CED4C8E007258F2 /* SinaPicUrls.m */,
+				FDF512A11CED4C8E007258F2 /* SinaRetweetedStatus.h */,
+				FDF512A21CED4C8E007258F2 /* SinaRetweetedStatus.m */,
+				FDF512A31CED4C8E007258F2 /* SinaStatuses.h */,
+				FDF512A41CED4C8E007258F2 /* SinaStatuses.m */,
+				FDF512A51CED4C8E007258F2 /* SinaUser.h */,
+				FDF512A61CED4C8E007258F2 /* SinaUser.m */,
+				FDF512A71CED4C8E007258F2 /* SinaVisible.h */,
+				FDF512A81CED4C8E007258F2 /* SinaVisible.m */,
+				FDA34D8D1CEC56C600E3E909 /* SinaTool.h */,
+				FDA34D8E1CEC56C600E3E909 /* SinaTool.m */,
+				FD9C26D41CFD3AC3000D2242 /* SinaEmoticonPackage.h */,
+				FD9C26D51CFD3AC3000D2242 /* SinaEmoticonPackage.m */,
+				FD9C26D91CFD3DA0000D2242 /* SinaEmoticonManager.h */,
+				FD9C26DA1CFD3DA0000D2242 /* SinaEmoticonManager.m */,
+				FDE1D6781D00276300A3AC52 /* SinaPhotoModel.h */,
+				FDE1D6791D00276300A3AC52 /* SinaPhotoModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FDA34D891CEC4CC100E3E909 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDA34D8A1CEC4D1C00E3E909 /* SinaLoginView.h */,
+				FDA34D8B1CEC4D1C00E3E909 /* SinaLoginView.m */,
+				FDA45C561CED53650099928C /* SinaCustomTableViewCell.h */,
+				FDA45C571CED53650099928C /* SinaCustomTableViewCell.m */,
+				FD334F6A1CF292A000F478D2 /* SinaShowImageView.h */,
+				FD334F6B1CF292A000F478D2 /* SinaShowImageView.m */,
+				FD334F6D1CF2D87700F478D2 /* SinaRetweetedView.h */,
+				FD334F6E1CF2D87700F478D2 /* SinaRetweetedView.m */,
+				FD80B7E01CF434FA001D8A66 /* SinaCustomCollectionViewCell.h */,
+				FD80B7E11CF434FA001D8A66 /* SinaCustomCollectionViewCell.m */,
+				FD9C27261CFE8BED000D2242 /* SinaEmojiLayout.h */,
+				FD9C27271CFE8BED000D2242 /* SinaEmojiLayout.m */,
+				FD9C27291CFEB6EA000D2242 /* SinaEmojiCollectionViewCell.h */,
+				FD9C272A1CFEB6EA000D2242 /* SinaEmojiCollectionViewCell.m */,
+				FDE1D67B1D002B7200A3AC52 /* SinaPhotoCollectionViewCell.h */,
+				FDE1D67C1D002B7200A3AC52 /* SinaPhotoCollectionViewCell.m */,
+				FDE1D67E1D0112E700A3AC52 /* SinaSelectImageView.h */,
+				FDE1D67F1D0112E700A3AC52 /* SinaSelectImageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FDA45C5D1CED969C0099928C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FDA45C5E1CED96B50099928C /* UIColor+Hex.h */,
+				FDA45C5F1CED96B50099928C /* UIColor+Hex.m */,
+				FDA45C611CED99680099928C /* NSString+Addtion.h */,
+				FDA45C621CED99680099928C /* NSString+Addtion.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA34D601CEC3FE700E3E909 /* SinaApp_MVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA34D721CEC3FE700E3E909 /* Build configuration list for PBXNativeTarget "SinaApp_MVC" */;
+			buildPhases = (
+				FAF9E34B84DC47C9097AA7E2 /* 📦 Check Pods Manifest.lock */,
+				FDA34D5D1CEC3FE700E3E909 /* Sources */,
+				FDA34D5E1CEC3FE700E3E909 /* Frameworks */,
+				FDA34D5F1CEC3FE700E3E909 /* Resources */,
+				8B90EAEA657455E386BEA0F9 /* 📦 Embed Pods Frameworks */,
+				565AEE3E97E441048D1B08D8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaApp_MVC;
+			productName = SinaApp_MVC;
+			productReference = FDA34D611CEC3FE700E3E909 /* SinaApp_MVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA34D591CEC3FE700E3E909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SuperWang;
+				TargetAttributes = {
+					FDA34D601CEC3FE700E3E909 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FDA34D5C1CEC3FE700E3E909 /* Build configuration list for PBXProject "SinaApp_MVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA34D581CEC3FE700E3E909;
+			productRefGroup = FDA34D621CEC3FE700E3E909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA34D601CEC3FE700E3E909 /* SinaApp_MVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA34D5F1CEC3FE700E3E909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA34D761CEC404200E3E909 /* SinaRoot.storyboard in Resources */,
+				04DD49DD1CF58B3F000A201E /* tabbar_compose_button@2x.png in Resources */,
+				04DD49DE1CF58B3F000A201E /* tabbar_compose_icon_add_highlighted@2x.png in Resources */,
+				04DD49E11CF58B3F000A201E /* tabbar_home@2x.png in Resources */,
+				04DD49E21CF58B3F000A201E /* tabbar_home_selected@2x.png in Resources */,
+				04DD49E31CF58B3F000A201E /* tabbar_message_center@2x.png in Resources */,
+				04DD49E41CF58B3F000A201E /* tabbar_message_center_selected@2x.png in Resources */,
+				04DD49E01CF58B3F000A201E /* tabbar_discover_selected@2x.png in Resources */,
+				FDA34D6B1CEC3FE700E3E909 /* Assets.xcassets in Resources */,
+				FDA34D6E1CEC3FE700E3E909 /* LaunchScreen.storyboard in Resources */,
+				04DD49E51CF58B3F000A201E /* tabbar_profile@2x.png in Resources */,
+				04DD49E61CF58B3F000A201E /* tabbar_profile_highlighted@2x.png in Resources */,
+				04DD49DF1CF58B3F000A201E /* tabbar_discover@2x.png in Resources */,
+				FD9C26D81CFD3AD3000D2242 /* Emoticons.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		565AEE3E97E441048D1B08D8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaApp_MVC/Pods-SinaApp_MVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B90EAEA657455E386BEA0F9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaApp_MVC/Pods-SinaApp_MVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF9E34B84DC47C9097AA7E2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA34D5D1CEC3FE700E3E909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD80B7E21CF434FA001D8A66 /* SinaCustomCollectionViewCell.m in Sources */,
+				FDF512AC1CED4C8E007258F2 /* SinaRetweetedStatus.m in Sources */,
+				FD334F6F1CF2D87700F478D2 /* SinaRetweetedView.m in Sources */,
+				FDA45C601CED96B50099928C /* UIColor+Hex.m in Sources */,
+				FD9C26D61CFD3AC3000D2242 /* SinaEmoticonPackage.m in Sources */,
+				FDF512AE1CED4C8E007258F2 /* SinaUser.m in Sources */,
+				FDF512AD1CED4C8E007258F2 /* SinaStatuses.m in Sources */,
+				FD80B7DF1CF43254001D8A66 /* CollectionImageViewController.m in Sources */,
+				FDA34D7E1CEC416700E3E909 /* SinaViewController.m in Sources */,
+				FDA45C631CED99680099928C /* NSString+Addtion.m in Sources */,
+				FD9C26DB1CFD3DA0000D2242 /* SinaEmoticonManager.m in Sources */,
+				FDE1D67D1D002B7200A3AC52 /* SinaPhotoCollectionViewCell.m in Sources */,
+				FDA34D8C1CEC4D1C00E3E909 /* SinaLoginView.m in Sources */,
+				FDA34D691CEC3FE700E3E909 /* AppDelegate.m in Sources */,
+				FD9805DF1CF7DD3D00F9FB5B /* SinaMenuViewController.m in Sources */,
+				FD9C272B1CFEB6EA000D2242 /* SinaEmojiCollectionViewCell.m in Sources */,
+				FD9805E21CF7FB1300F9FB5B /* SendMessageViewController.m in Sources */,
+				FDA34D841CEC417A00E3E909 /* SearchViewController.m in Sources */,
+				FDE1D67A1D00276300A3AC52 /* SinaPhotoModel.m in Sources */,
+				FD9C27281CFE8BED000D2242 /* SinaEmojiLayout.m in Sources */,
+				FDA34D811CEC417200E3E909 /* MessageViewController.m in Sources */,
+				FDF512A91CED4C8E007258F2 /* SinaAnnotations.m in Sources */,
+				FDE1D6771D00206800A3AC52 /* SinaPickerPhotoViewController.m in Sources */,
+				FDA34D661CEC3FE700E3E909 /* main.m in Sources */,
+				FD334F6C1CF292A000F478D2 /* SinaShowImageView.m in Sources */,
+				FDE1D6801D0112E700A3AC52 /* SinaSelectImageView.m in Sources */,
+				FDF512AB1CED4C8E007258F2 /* SinaPicUrls.m in Sources */,
+				FDF512AF1CED4C8E007258F2 /* SinaVisible.m in Sources */,
+				FDF512AA1CED4C8E007258F2 /* SinaHomeLineModel.m in Sources */,
+				FDA45C581CED53650099928C /* SinaCustomTableViewCell.m in Sources */,
+				FDA34D8F1CEC56C600E3E909 /* SinaTool.m in Sources */,
+				FDA34D871CEC418500E3E909 /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDA34D6C1CEC3FE700E3E909 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA34D6D1CEC3FE700E3E909 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA34D701CEC3FE700E3E909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDA34D711CEC3FE700E3E909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA34D731CEC3FE700E3E909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D13A221A0093BD2A73622B /* Pods-SinaApp_MVC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinaApp_MVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.SinaApp-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA34D741CEC3FE700E3E909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC78ED2B6C042985355F10C0 /* Pods-SinaApp_MVC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinaApp_MVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.SinaApp-MVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA34D5C1CEC3FE700E3E909 /* Build configuration list for PBXProject "SinaApp_MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA34D701CEC3FE700E3E909 /* Debug */,
+				FDA34D711CEC3FE700E3E909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA34D721CEC3FE700E3E909 /* Build configuration list for PBXNativeTarget "SinaApp_MVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA34D731CEC3FE700E3E909 /* Debug */,
+				FDA34D741CEC3FE700E3E909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA34D591CEC3FE700E3E909 /* Project object */;
+}
